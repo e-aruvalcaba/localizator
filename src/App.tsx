@@ -7,8 +7,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Sideb from './components/sideb';
 
 
-
-
 function App() {
   // const [count, setCount] = useState(0)
 

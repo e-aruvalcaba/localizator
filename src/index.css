@@ -1,3 +1,46 @@
+:root {
+    --bg-primary: #FCFCFC;
+    --text-primary: #140505;
+    --info-primary: #447FFF;
+    --success-primary: #41E080;
+    --warning-primary: #FFE628;
+    --danger-primary: #FF6B60;
+}
+
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+.primary-color{
+    color: #FCFCFC
+}
+
+/* 
+   Primary: #FCFCFC
+   Success: #41E080
+   Info:    #447FFF
+   Warning: #FFE628
+   Danger:  #FF6B60
+ */
+
+ .sideMenus .nav-item * {
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.sideMenus .nav-item div a *:hover {
+    background-color: var(--bg-primary);
+    color: white !important;
+    fill: white;
+}
+
+.backImg{
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(./assets/login2.png);   
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        margin-right: 45px;
+        flex-grow: 0;
+    }
 }

@@ -29,7 +29,7 @@ export const Navigation = () => {
 const styles = {
     circleImg: {
         width: "40px",
-        // height: "30px"
+        borderRadius: "20px"
     }
 }
 

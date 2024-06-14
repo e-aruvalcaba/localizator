@@ -1,5 +1,5 @@
 const Home = () => {
-    return <div></div>
+    return <h1>Bienvenido a Localizator APP</h1>
 }
 
 export default Home;
