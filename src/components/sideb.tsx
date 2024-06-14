@@ -12,8 +12,9 @@ export const Sideb = () => {
             activeKey="/home"
             onSelect={selectedKey => alert(`selected ${selectedKey}`)}
         >
-            <Nav.Item style={itemStyles} >
-                {itemsMenu.map(function (object) {
+            <Nav.Item style={itemStyles} className='navegador' >
+                {
+                itemsMenu.map(function (object) {
                     return <MenuItem key={object.id} data={object}/>                   
                 })}
                 

@@ -7,8 +7,26 @@
     --danger-primary: #FF6B60;
 }
 
+html{
+    overflow-x: hidden;
+}
+
+a {
+    color: black;
+}
+
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+.mainContainer{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item{
+    padding-left: 10px;
+    color:white;
 }
 
 .primary-color{
@@ -23,19 +41,24 @@
    Danger:  #FF6B60
  */
 
- .sideMenus .nav-item * {
-    color: var(--text-primary);
+ .sideMenus .nav-item *{
+    /* color: var(--text-primary); */
     text-decoration: none;
 }
 
-.sideMenus .nav-item div a *:hover {
-    background-color: var(--bg-primary);
+.nav-item a *:hover {
+    background-color: var(--text-primary)!important;
     color: white !important;
-    fill: white;
 }
 
 .backImg{
     background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(./assets/login2.png);   
+}
+
+/* BUTTONS GLOBVAL STYLES */
+
+.btnStandardSize{
+    width: 150px;
 }
 
 @media (min-width: 992px) {

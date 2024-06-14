@@ -8,11 +8,11 @@ import { Link } from "react-router-dom";
 
 const MenuItem = ({ data }: { data: menuItems }) => {
     return (<>
-        <Col key={data.id}>
-            <Link to={data.path}>
-                <div style={style.link}><FontAwesomeIcon icon={data.icon} style={style.iconMrgn} /> {data.name}</div>
+        {/* <Col key={data.id}> */}
+            <Link  key={data.id} to={data.path}>
+                <div style={style.link} className="option"><FontAwesomeIcon icon={data.icon} style={style.iconMrgn} /> {data.name}</div>
             </Link>
-        </Col>
+        {/* </Col> */}
     </>);
 }
 
