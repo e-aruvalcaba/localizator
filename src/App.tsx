@@ -3,6 +3,7 @@ import './App.css'
 import { Outlet } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 // import Navigation from './components/navbar';
+import 'react-calendar/dist/Calendar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Sideb from './components/sideb';
 

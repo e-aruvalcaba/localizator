@@ -15,7 +15,7 @@ import AddUser from './pages/adduser.tsx';
 import Analitycs from './pages/analytics.tsx';
 import Settings from './pages/settings.tsx';
 import Todo from './pages/todo.tsx';
-import Calendar from './pages/calendar.tsx';
+import Calendars from './pages/calendar.tsx';
 
 const router = createBrowserRouter([{
   path: '/',
@@ -27,7 +27,7 @@ const router = createBrowserRouter([{
       path: '/', element: <Home />, children: [
         { path: '/eat', element: <Eat /> },
         { path: '/analytics', element: <Analitycs /> },
-        { path: '/calendar', element: <Calendar /> },
+        { path: '/calendar', element: <Calendars /> },
         { path: '/settings', element: <Settings /> },
         { path: '/todo', element: <Todo /> },
         { path: '/users', element: <Users /> },
