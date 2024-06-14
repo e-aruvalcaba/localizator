@@ -46,7 +46,7 @@ const Login = () => {
                             <Form.Control type="password" placeholder="Password" {...register('password')} />
                         </Col>
                     </Form.Group>
-                    <div className="d-flex justify-content-end"> <Button variant="outline-dark" style={styles.logButton} type="submit">Iniciar</Button> </div>
+                    <div className="d-flex justify-content-end"> <Button variant="outline-dark" style={styles.logButton} type="submit">Log In</Button> </div>
                     <div className="d-flex justify-content-end pt-3"> <p>Forgot Password?</p> </div>
                 </Form>
             </Col>

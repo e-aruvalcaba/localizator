@@ -12,6 +12,10 @@ import Profile from './pages/profile.tsx';
 import AccountSettings from './pages/accountsettings.tsx';
 import Users from './pages/users.tsx';
 import AddUser from './pages/adduser.tsx';
+import Analitycs from './pages/analytics.tsx';
+import Settings from './pages/settings.tsx';
+import Todo from './pages/todo.tsx';
+import Calendar from './pages/calendar.tsx';
 
 const router = createBrowserRouter([{
   path: '/',
@@ -22,7 +26,11 @@ const router = createBrowserRouter([{
     {
       path: '/', element: <Home />, children: [
         { path: '/eat', element: <Eat /> },
-        { path: '/users', element: <Users />},
+        { path: '/analytics', element: <Analitycs /> },
+        { path: '/calendar', element: <Calendar /> },
+        { path: '/settings', element: <Settings /> },
+        { path: '/todo', element: <Todo /> },
+        { path: '/users', element: <Users /> },
         { path: '/adduser', element: <AddUser /> },
         { path: '/register', element: <Register /> },
         { path: '/forgot', element: <Forgot /> },

@@ -13,21 +13,16 @@ const items: menuItems[] = [{
     icon: faBarChart
 }, {
     id: 3,
-    name: "Eats",
-    path: "/eat",
-    icon: faHamburger
-}, {
-    id: 4,
     name: "Calendar",
-    path: "/home",
+    path: "/calendar",
     icon: faCalendarDay
 }, {
-    id: 5,
+    id: 4,
     name: "ToDo",
     path: "/todo",
     icon: faListCheck
 }, {
-    id: 6,
+    id: 5,
     name: "Settings",
     path: "/settings",
     icon: faGear
